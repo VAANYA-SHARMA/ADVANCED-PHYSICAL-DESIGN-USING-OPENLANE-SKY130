@@ -1,8 +1,7 @@
 # ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130
 This is a workshop which is about ASIC design using OPEN source tools.
 
-Course -  [Advanced Physical Design Using OpenLANE/SKY130 offered by VSDIAT](https://vsdsquadron.vlsisystemdesign.com/digital-vlsi-soc-design-and-planning/)
-
+Course -  Advanced Physical Design Using OpenLANE/SKY130 offered by VSDIAT
 Author - VAANYA SHARMA
 
 Contents -:

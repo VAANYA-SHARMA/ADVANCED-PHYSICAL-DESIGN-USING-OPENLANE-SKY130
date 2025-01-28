@@ -44,6 +44,8 @@ SOURCE OF IMAGE - VSD-IAT PLATFORM
 <br> 7.**IPs:-** ***Intellectual Property. It requires some _intelligence_ to be built.***
 <br> 1.**MACROs:-** ***They are pure logic based.***
 
+ ### <br> <BR> <BR> GHGVGCH
+
 
 
 

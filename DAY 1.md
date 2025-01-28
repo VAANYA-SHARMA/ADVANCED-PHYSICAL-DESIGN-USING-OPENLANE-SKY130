@@ -3,4 +3,6 @@
 ### <br> Introduction to QFN - 48 package, chip, pads, core, die and IPs
 <br>
 <br> Let us take an example of a typical circuitary board (arduino board). 
+<br> ![WhatsApp Image 2024-03-22 at 20 42 40_546c53fa](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/77287e70-be46-4858-9855-655b4036fe4d)
+source of the image- VSD-IAT PLATORM
 <br>

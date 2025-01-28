@@ -6,8 +6,7 @@ This is a workshop which is about ASIC design using OPEN source tools.
 
 Course -  Advanced Physical Design Using OpenLANE/SKY130 offered by VSDIAT
 <br> Author - VAANYA SHARMA
-
-<br> ## <br> *WORKSHOP DAY WISE CONTENT* 
+## <br> *WORKSHOP DAY WISE CONTENT* 
 Contents -:
 * [SKY130 Day 1: Inception of OpenSource EDA, OpenLANE and SKY130 PDK](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/DAY%201.md#sky130-day-1-inception-of-opensource-eda-openlane-and-sky130-pdk)
     - [How to Talk to Computers](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/DAY%201.md#-how-to-talk-to-computers)

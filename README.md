@@ -11,7 +11,7 @@ Contents -:
 * [SKY130 Day 1: Inception of OpenSource EDA, OpenLANE and SKY130 PDK](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/DAY%201.md#sky130-day-1-inception-of-opensource-eda-openlane-and-sky130-pdk)
     - [How to Talk to Computers](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/DAY%201.md#-how-to-talk-to-computers)
         + [Introduction to QFN - 48 package, chip, pads, core, die and IPs](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/DAY%201.md#-introduction-to-qfn---48-package-chip-pads-core-die-and-ips)
-        + [Introduction to RISC V](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/DAY%201.md#---ghgvgch)
+        + [Introduction to RISC V](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/DAY%201.md#---introduction-to-risc-v)
         + [From Software Applications to Hardware]()
     - [SoC Design and OpenLANE](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#soc-design-and-openlane)
         + [Introduction to Components of Opensource Digital ASIC Design](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#introduction-to-components-of-opensource-digital-asic-design)

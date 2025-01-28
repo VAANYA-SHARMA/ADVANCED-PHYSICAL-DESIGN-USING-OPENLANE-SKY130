@@ -8,5 +8,5 @@
 )
 source of the image- VSD-IAT PLATORM
 <br> The industry of chip design, the thing we have main focus on lies the that tiny black thing highlighted in below image.
-<br> ![WhatsApp Image 2024-03-22 at 20 42 40_546c53fa](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/77287e70-be46-4858-9855-655b4036fe4d)
+<br> ![WhatsApp Image 2024-03-22 at 20 42 40_546c53fa](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/77287e70-be46-4858-9855-655b4036fe4d <width="500" height="300" />)
 source of the image- VSD-IAT PLATORM

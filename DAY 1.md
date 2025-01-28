@@ -31,8 +31,9 @@ source of the image- VSD-IAT PLATORM
 - A typical chip essentialy contains A SoC, SRAM, PLL, SPI and a couple of other components.
 <br> ![Image](https://github.com/user-attachments/assets/3c37f1bb-b281-499b-8568-b912d3a77d2f)
 SOURCE OF IMAGE - VSD-IAT PLATFORM
-<BR> Below is the example f an RISC V. Out of many blocks seen below, some are specified as _FOUNDRY IPs_. Others are _MACROS_. And If we wish to manufacture this chip, we'll be contacting the _FOUNDRY_.
+<BR> Below is the example f an RISC V. Out of many blocks seen below, some are specified as _FOUNDRY IPs_. Others are _MACROS_. And If we wish to manufacture this chip, we'll be constantly contacting the _FOUNDRY_. We would have to maintain contact with the foundry using some interface. This interface might be a file that the foundry provides us with.
 
+<br>
 ##### _IMPORTANT TERMINOLOGIES_
 
 <br> 1.**PACKAGE:-** ***The case which has the chip and is connected to the circuit board. It is kind of a housing in which the chip is placed.***
@@ -45,12 +46,9 @@ SOURCE OF IMAGE - VSD-IAT PLATFORM
 <br> 1.**MACROs:-** ***They are pure logic based.***
 
  ### <br> <BR> <BR> Introduction To RISC V
-
-
-
-
-  
-
-
-
+ RISC V ISA ~  RISC V Instructions Set Architecture. If a C program is to be run on a hardware with a particular layout, we need to pass it in a specific flow. 
+ + First, C program is converted to ASSEMBLY LANGUAGE PROGRAM (here it will be RISC V ASSEMBLY LANGUAGE PROGRAM).
+ + Then this is converted to MACHINE/BINARY LANGUAGE PROGRAM.
+ + Then this is fitted in layout
+Betweeen RISC V architecture and LAYout there is another interface, HARWARE DESCRIPTION LANGUAGE, this is in essence the implementation (picorv32)
 

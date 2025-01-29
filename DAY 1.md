@@ -51,4 +51,4 @@ SOURCE OF IMAGE - VSD-IAT PLATFORM
  + Then this is converted to MACHINE/BINARY LANGUAGE PROGRAM.
  + Then this is fitted in layout
 Betweeen RISC V architecture and LAYout there is another interface, HARWARE DESCRIPTION LANGUAGE, this is in essence the implementation (picorv32)
-
+GG

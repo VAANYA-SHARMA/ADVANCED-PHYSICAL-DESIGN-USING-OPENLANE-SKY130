@@ -33,8 +33,8 @@ source of the image- VSD-IAT PLATORM
 SOURCE OF IMAGE - VSD-IAT PLATFORM
 <BR> Below is the example f an RISC V. Out of many blocks seen below, some are specified as _FOUNDRY IPs_. Others are _MACROS_. And If we wish to manufacture this chip, we'll be constantly contacting the _FOUNDRY_. We would have to maintain contact with the foundry using some interface. This interface might be a file that the foundry provides us with.
 
-<br>
-##### _IMPORTANT TERMINOLOGIES_
+
+##### <br> _IMPORTANT TERMINOLOGIES_
 
 <br> 1.**PACKAGE:-** ***The case which has the chip and is connected to the circuit board. It is kind of a housing in which the chip is placed.***
 <br> 2.**WIRE BONDS:-** ***Through which the chip is connected to the package and the outside signals are received by the chip.***

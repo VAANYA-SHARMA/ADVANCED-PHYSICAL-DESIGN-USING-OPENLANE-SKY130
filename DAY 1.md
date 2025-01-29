@@ -99,6 +99,10 @@ For 100 % OPEN SOURCE ASIC DESIGN, WE NEED THE ABOVE LISTED ELEMENTS AS OPEN SOU
 <BR> SOURCE OF IMAGE - VSD-IAT PLATFORM
 
 
+Now that we have all enablers/requirements, are we really ready to ASIC design...
+
+### <br> 
+<br> 
 
 
 

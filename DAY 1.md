@@ -67,9 +67,13 @@ Betweeen RISC V architecture and LAYout there is another interface, HARWARE DESC
    - *ASSEMBLER* ~ Converts the instructions into respective _BINARY LANGUAGE_ also known as _MACHINE LANGUAGE PROGRAM_. Well, the name is pretty much self explanatory.
      + This Binary Output(Logic 0 and Logic 1) is understood by hardware.
 * Later or sooner, the output is Binary Output that is understood by hardware.
-<br> ![Image](https://github.com/user-attachments/assets/4271f908-e836-4e26-8f11-6d27683cd437)
+<br> ![Image](https://github.com/user-attachments/assets/502ce408-33a4-4722-866c-91db17a6c807)
 <br> SOURCE OF IMAGE - VSD -IAT PLATFORM.
+<BR> The output of Compiler i.e. the instructions act as a _ABSTRACT INTERFACE_ between the C language and the hardware. And therefore it is known as INSTRUCTION SET ARCHITECTURE or ARCHITECTURE OF COMPUTER.
  
+## <br> SoC Design and OpenLANE
+### <br> Introduction to Components of Opensource Digital ASIC Design
+<br>
 
 
 

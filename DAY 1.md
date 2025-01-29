@@ -50,5 +50,41 @@ SOURCE OF IMAGE - VSD-IAT PLATFORM
  + First, C program is converted to ASSEMBLY LANGUAGE PROGRAM (here it will be RISC V ASSEMBLY LANGUAGE PROGRAM).
  + Then this is converted to MACHINE/BINARY LANGUAGE PROGRAM.
  + Then this is fitted in layout
-Betweeen RISC V architecture and LAYout there is another interface, HARWARE DESCRIPTION LANGUAGE, this is in essence the implementation (picorv32)
-GG
+Betweeen RISC V architecture and LAYout there is another interface, HARWARE DESCRIPTION LANGUAGE, this is in essence the implementation (picorv32).
+
+
+### <BR> <BR> From Software Applications to Hardware
+
+<BR> _APPLICATION SOFTWARE OR APPS_, as generally they are called, runs on a wide range of hardware, including mobile phones, laptops, and other devices as they include chip.
+<br> _HOW DO THESE SOFTWARES WORK ON OUR COMPUTERS??_
+* First they enter a block, known as *SYSTEM SOFTWARE*. This converts this software into binary format which can be understood by the hardware. Output of OS are small functions in C, C++ OR JAVA script. Let's look into this in a detailed manner;
+  + System Software has layers/parts:-
+    - *OPERATING SYSTEM/OS* ~ Operating system has the following jobs:-
+      <BR> } CONTROLS IO OPERATIONS
+      <BR> } CONTROLS/ALLOCATES MEMORY
+      <BR> } MAIN TASK OF OS - TAKES THE APP AND COVERTS INTO THE APP'S RESPECTIVE ASSEMBLY LANGUAGE PROGRAM.
+   - *COMPILER* ~ Converts the input functions by OS into instructions. The syntax of these instructions depends on the type of hardware. If the hardware is of RISC V CPU, then the instructions will be in RISC V format.
+   - *ASSEMBLER* ~ Converts the instructions into respective _BINARY LANGUAGE_ also known as _MACHINE LANGUAGE PROGRAM_. Well, the name is pretty much self explanatory.
+     + This Binary Output(Logic 0 and Logic 1) is understood by hardware.
+* Later or sooner, the output is Binary Output that is understood by hardware.
+<br> ![Image](https://github.com/user-attachments/assets/4271f908-e836-4e26-8f11-6d27683cd437)
+<br> SOURCE OF IMAGE - VSD -IAT PLATFORM.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

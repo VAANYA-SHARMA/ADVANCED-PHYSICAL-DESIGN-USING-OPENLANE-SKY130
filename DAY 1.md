@@ -73,7 +73,7 @@ Betweeen RISC V architecture and LAYout there is another interface, HARWARE DESC
  
 ## <br> SoC Design and OpenLANE
 ### <br> Introduction to All Components of Opensource Digital ASIC Design
-<br> *_ASIC DESIGN_* ~ DIGITAL APPLICATION INTEGRATED CIRCUIT designing requires some components:- 
+<br> **_ASIC DESIGN_** ~ DIGITAL APPLICATION INTEGRATED CIRCUIT designing requires some components:- 
 + RTL IPs (HARDWRAE DESCRIPTION LANGUAGE)
 + EDA TOOLS
 + PDK DATA
@@ -101,8 +101,25 @@ For 100 % OPEN SOURCE ASIC DESIGN, WE NEED THE ABOVE LISTED ELEMENTS AS OPEN SOU
 
 Now that we have all enablers/requirements, are we really ready to ASIC design...
 
-### <br> 
-<br> 
+### <br> Simplified RTL TO GDSII FLOW
+
+<br> Well RTL to GDS II process has many steps:-
+* **SYNTHESIS** ~ converts RTL (HARDWARE DESCRIPTION LANGUAGE) to a circuit out of components (GATE LEVEL) from the standard cell library (SCL)
+<BR> ![Image](https://github.com/user-attachments/assets/7539c931-128b-4746-80da-582d0a13d128)
+<BR> SOURCE OF IMAGE - VSD-IAT PLATFORM
+* **FLOOR AND POWER PLANNING** ~ planning the implementation of macro, or whole chip and the silicon area.
+<BR> -MACRO FLOOR PLANNING ~ DIMENSIONS, PIN LOCATIONS, ROWS DEFINED ET CETERA...
+<br> ![Image](https://github.com/user-attachments/assets/ff47aab5-94cf-46a8-aaa0-f47b44aafac2)
+<BR> -CHIP FLOOR PLANNING ~ CHIP DIE PARTITION, I/O PADS PLACEMENT ETC. ...
+<br> ![Image](https://github.com/user-attachments/assets/511ad851-bbb3-46ee-b860-7d8f224134b0)
+<BR> -POWER PLANNING ~ to reduce the wire length, resistance and make the chip planned well
+<BR> ![Image](https://github.com/user-attachments/assets/1367f6b5-1618-4f5f-9874-fc22522b69b4)
+
+* **PLACEMENT** ~ placing the cells on the floorplan rows, aligned with the sites.
+  - GLOBAL - CELLS MIGHT OVERLAP
+  - DETAILED - ALTERED GLOBAL PLACEMENTS.
+*  
+
 
 
 

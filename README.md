@@ -111,21 +111,3 @@ Contents -:
         + [TritonRoute Method To Handle Connectivity](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%205.md#tritonroute-method-to-handle-connectivity)
         + [Routing Topology Algorithm and Final Files List Post Route](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%205.md#routing-topology-algorithm-and-final-files-list-post-route)
 * [Bibliography and Acknowledgements](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/Bibliography%20and%20Acknowledgements.md)
-
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
-####### Normal Text (Not a heading, just plain text)
-
-This is normal text without any `#`.
-
-**Bold Text**  
-*Italic Text*  
-~~Strikethrough~~  
-[Clickable Link](https://example.com)
-
-
-

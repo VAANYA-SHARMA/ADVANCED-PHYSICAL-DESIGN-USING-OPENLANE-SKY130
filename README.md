@@ -14,7 +14,7 @@ Contents -:
         + [Introduction to RISC V](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/DAY%201.md#---introduction-to-risc-v)
         + [From Software Applications to Hardware](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/DAY%201.md#--from-software-applications-to-hardware)
     - [SoC Design and OpenLANE](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/DAY%201.md#-soc-design-and-openlane)
-        + [Introduction to Components of Opensource Digital ASIC Design](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/DAY%201.md#-introduction-to-components-of-opensource-digital-asic-design)
+        + [Introduction to Components of Opensource Digital ASIC Design](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/DAY%201.md#-introduction-to-all-components-of-opensource-digital-asic-design)
         + [Simplified RTL to GDS flow]()
         + [Introduction to OpenLANE and Strive Chipsets]()
         + [Introduction to OpenLANE detailed ASIC Design Flow](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%201.md#introduction-to-openlane-detailed-asic-design-flow)

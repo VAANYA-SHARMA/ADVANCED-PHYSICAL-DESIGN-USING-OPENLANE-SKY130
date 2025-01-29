@@ -72,8 +72,21 @@ Betweeen RISC V architecture and LAYout there is another interface, HARWARE DESC
 <BR> The output of Compiler i.e. the instructions act as a _ABSTRACT INTERFACE_ between the C language and the hardware. And therefore it is known as INSTRUCTION SET ARCHITECTURE or ARCHITECTURE OF COMPUTER.
  
 ## <br> SoC Design and OpenLANE
-### <br> Introduction to Components of Opensource Digital ASIC Design
-<br>
+### <br> Introduction to All Components of Opensource Digital ASIC Design
+<br> *_ASIC DESIGN_* ~ DIGITAL APPLICATION INTEGRATED CIRCUIT designing requires some components:- 
++ RTL IPs (HARDWRAE DESCRIPTION LANGUAGE)
++ EDA TOOLS
++ PDK DATA
+
+For 100 % OPEN SOURCE ASIC DESIGN, WE NEED THE ABOVE LISTED ELEMENTS AS OPEN SOURCE.
+
+ - RTL Designs ~ GITHUB, OPENCORES ...
+ - EDA Tools ~ OPENROAD, OPENLANE ...
+ - PDK Data ~ DO WE HAVE OPEN SOURCE PDK?? WELL, WHAT IS PDK?? LET US KNOW...
+<BR> _*PDK*_ denotes Process Design Kits. This is the interface b/w FAB and the designers. This is the collection of files used to model a fabrication process for the EDA tools used 
+
+
+
 
 
 

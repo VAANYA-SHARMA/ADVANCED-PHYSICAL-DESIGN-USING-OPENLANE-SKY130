@@ -80,22 +80,23 @@ Betweeen RISC V architecture and LAYout there is another interface, HARWARE DESC
 
 For 100 % OPEN SOURCE ASIC DESIGN, WE NEED THE ABOVE LISTED ELEMENTS AS OPEN SOURCE.
 
- - RTL Designs ~ GITHUB, OPENCORES ...
- - EDA Tools ~ OPENROAD, OPENLANE ...
+ - RTL Designs- BLOCKS WRITTEN HARDWARE DESCRIPTION LANGUAGE ~ GITHUB, OPENCORES ...
+ - EDA Tools - ELECTRONIC DESIGNING AUTOMATION tools ~ OPENROAD, OPENLANE ...
  - PDK Data ~ DO WE HAVE OPEN SOURCE PDK?? WELL, WHAT IS PDK?? LET US KNOW...
-<BR> _*PDK*_ denotes Process Design Kits. This is the interface b/w FAB and the designers. This is the collection of files used to model a fabrication process for the EDA tools used 
+<BR> _*PDK*_ denotes Process Design Kits. This is the interface b/w FAB and the designers. This is the collection of files used to model a fabrication process for the EDA tools used to design an integrated circuit.
+<br> We have OPEN SOURCE PDK as well. This is by Google and Skywater ~ FOSS 130nm PRODUCTION PDK.
+<br> Well, now we think about it, we might have a question popped that _IS 130nm OLD AND NOT IN USE?_
+<BR> Well, NO! Well, it actually conforms to industrial requirements.
 
+<br> Well, the idea of 130nm not being handy doesn’t hold up for two main reasons:
 
+1. Many applications don’t actually need advanced nodes, and 130nm chips provide enough power for those situations.
+2. The cost of making 130nm chips is much lower.
 
+<br> To mention, these 130nm tech isn't slow too... To clarify, kindly refer to below;
 
-
-
-
-
-
-
-
-
+<br> ![Image](https://github.com/user-attachments/assets/ca5c8146-cb4c-4021-8c3b-e4af7d0c25d2)
+<BR> SOURCE OF IMAGE - VSD-IAT PLATFORM
 
 
 

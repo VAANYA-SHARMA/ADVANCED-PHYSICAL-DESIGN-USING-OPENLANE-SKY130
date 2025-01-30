@@ -163,17 +163,38 @@ OpenLANE is an open-source ASIC design flow that streamlines digital design impl
 <br> SOURCE OF IMAGE - VSD-IAT PLATFORM
 
 OpenLANE is based on many Open source components such as OpenROAD, KLayout, Yosys etc..
+The ASIC Design in OpenLANE starts with RTL and ends with GDSII.
 
+The steps :-
++ **SYNTHESIS EXPLORATION** :- It has Delay and Area Report
+  <br> ![image](https://github.com/user-attachments/assets/5fff7dd7-cae8-4bd3-a08c-996d037e463f)
+  <br> SOURCE OF IMAGE - VSD-IAT PLATFORM.
 
++ **DESIGN EXPLORATION** :- It generates a report showing design metrics (35 +). Useful for finding best configuration(s) for nay gien design for OpenLANE that result in a clean layout. Report like below is generated.
+<br> ![image](https://github.com/user-attachments/assets/3f41143b-9ad2-4965-8a12-9cc28fb6eed1)  <br> SOURCE OF IMAGE - VSD-IAT PLATFORM.
 
++ **OPENLANE REGRESSION TESTING** <BR> ![image](https://github.com/user-attachments/assets/fe2654ba-0a48-41fb-974b-aa62f6310f79)  <br> SOURCE OF IMAGE - VSD-IAT PLATFORM. 
 
++ **DESIGN FOR TEST (DFT)** ~ Adds extra logic that helps in testing after fabrication.
+<BR> ![image](https://github.com/user-attachments/assets/f0682dab-598f-43b6-bdf5-1ed99b02e4b8)
+<br> SOURCE OF IMAGE - VSD-IAT PLATFORM.
 
-
-
-
-
-
++ **PHYSICAL IMPLEMENTATION** ~ <BR> ![image](https://github.com/user-attachments/assets/8b735eae-af08-49d6-b2a3-b80446f471fc) <br> SOURCE OF IMAGE - VSD-IAT PLATFORM.
  
+
++ ***LOGIC EQUIVALENCE CHECK (AKA LEC)** ~ <BR> ![image](https://github.com/user-attachments/assets/8acc98b9-74b5-43bb-bea2-6b85b6def013) <br> SOURCE OF IMAGE - VSD-IAT PLATFORM.
+
+  - _DEALING WITH ANTENA RULES VIOLATIONS_
+  - ![image](https://github.com/user-attachments/assets/41e4f355-0c5b-4fab-9340-2b7284c9ce9e) <BR> SOURCE OF IMAGE - VSD-IAT PLATFORM. 
+  - ![image](https://github.com/user-attachments/assets/86efe5aa-4a15-4fa9-80da-a11cc63d7e27) <BR> SOURCE OF IMAGE - VSD-IAT PLATFORM.
+  - ![image](https://github.com/user-attachments/assets/5b2730eb-b7b3-46de-9d37-77f856f2f02c)  <BR> SOURCE OF IMAGE - VSD-IAT PLATFORM.
++ **STATIC TIMING ANALYSIS (STA)**
++ **PHYSICAL  VERIFICATION DRC & LVS**  
+
+
+  
+
+
 
 
 

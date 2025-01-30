@@ -199,12 +199,60 @@ The steps :-
 + **STATIC TIMING ANALYSIS (STA)**
 + **PHYSICAL  VERIFICATION DRC & LVS**  
 
-
-  
 ## <br> Get Familiar to Open-Source EDA Tools
 ### <br> OpenLANE Directory Structure In Detail
 <br>
+OpenLANE is a flow rather than a tool, that actually comprises of my EDA tools such as YOSYS, OpenSTA etc..
+<br> The primary aim of having a tool like OpenLANE was to make the complete RTL to GDSII flow without any human intervention. This is very much similar to Commercial EDA Tools.
 
+
++ **_OPEN SOURCE EXPLORATION_**:-
+  1. Open virtual box and then start terminal.
+![image](https://github.com/user-attachments/assets/50ea6ab9-00d8-4979-b928-bb6ca65334d5) <br> SOURCE OF IMAGE - AUTHOR
+![image](https://github.com/user-attachments/assets/f89204e1-0782-4c0f-a484-39356ca86ffa) <br> SOURCE OF IMAGE - AUTHOR
+ > (the command that I've put in is used to CHANGE DIRECTORY to DESKTOP) 
+<BR> (Bonus Point ~ To clear the any commands written previously, just type "clear" and click enter)
+2. Type in "cd work/tools/" to change to that directory. This is because it conatins/stores the files we require.
+  ![image](https://github.com/user-attachments/assets/6a4abe42-5fdd-4f4b-8a85-a236449844f2) <br> SOURCE OF IMAGE - AUTHOR
+
+ 3. Now, type in "ls -ltr"
+    > ls is the linux command for listing. -ltr is the switch for listing files in a folder.
+
+<br> ![image](https://github.com/user-attachments/assets/05815aef-4768-4c23-a8fe-47b439c95e1f) <br> SOURCE OF IMAGE - AUTHOR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
 
 
 

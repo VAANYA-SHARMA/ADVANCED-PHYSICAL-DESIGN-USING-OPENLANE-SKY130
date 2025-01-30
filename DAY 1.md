@@ -168,6 +168,14 @@ The ASIC Design in OpenLANE starts with RTL and ends with GDSII.
 The steps :-
 + **SYNTHESIS EXPLORATION** :- It has Delay and Area Report
   <br> ![image](https://github.com/user-attachments/assets/5fff7dd7-cae8-4bd3-a08c-996d037e463f)
+
+
+
+
+
+
+
+
   <br> SOURCE OF IMAGE - VSD-IAT PLATFORM.
 
 + **DESIGN EXPLORATION** :- It generates a report showing design metrics (35 +). Useful for finding best configuration(s) for nay gien design for OpenLANE that result in a clean layout. Report like below is generated.

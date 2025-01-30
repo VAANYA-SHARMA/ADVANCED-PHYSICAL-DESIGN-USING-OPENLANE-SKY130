@@ -201,6 +201,9 @@ The steps :-
 
 
   
+## <br> Get Familiar to Open-Source EDA Tools
+### <br> OpenLANE Directory Structure In Detail
+<br>
 
 
 

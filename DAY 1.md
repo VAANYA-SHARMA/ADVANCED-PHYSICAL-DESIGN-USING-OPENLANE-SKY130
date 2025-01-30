@@ -118,10 +118,49 @@ Now that we have all enablers/requirements, are we really ready to ASIC design..
 * **PLACEMENT** ~ placing the cells on the floorplan rows, aligned with the sites.
   - GLOBAL - CELLS MIGHT OVERLAP
   - DETAILED - ALTERED GLOBAL PLACEMENTS.
-*  
+* **Clock Tree Synthesis (CTS)**  
+Clock Tree Synthesis is performed before routing to ensure uniform clock distribution across all sequential elements, minimizing clock skew and optimizing timing performance.  
+
+ **Routing**  
+Routing establishes the necessary interconnections between components using designated metal layers. The specifications, including layer thickness and pitch, are defined by the Process Design Kit (PDK). The SKY130 technology node provides six metal layers for routing.  
+
+ **Final Verification and Sign-Off**  
+Before fabrication, the design undergoes critical verification steps to ensure functionality, manufacturability, and performance:  
+
+- **Design Rule Check (DRC):** Validates that the physical design complies with manufacturing constraints, preventing layout violations that could lead to fabrication defects.  
+- **Layout vs. Schematic (LVS):** Compares the physical layout to the schematic to confirm consistency. Any discrepancies must be resolved before proceeding further.  
+- **Static Timing Analysis (STA):** Evaluates the circuit’s timing characteristics to verify compliance with setup and hold time requirements, maximum clock frequency, and overall performance constraints.  
 
 
 
+### <br> Introduction To OpenLANE and Strive Chipsets
+
+
+
+OpenLANE is an open-source ASIC design flow that streamlines digital design implementation launched by efabless and google. It started as an Open Source Tape - out EXperiment.
+<br> Whereas, striVe is a family of **open everything** SoCs (Open PDK, Open EDA, Open RTL) by Efabless.
+<br> ![Image](https://github.com/user-attachments/assets/c51b6afe-16c3-4176-aace-0c9d2fb7c3e1)
+<br> SOURCE OF IMAGE - VSD-IAT PLATFORM
+
+
+* _MAIN GOAL_ ~ Produce a clean GDSII with no human intervention (NO Human-In-The_Loop).
+* By the term "clean GDSII" we mean,
+  - NO LVS VIOLATIONS
+  - NO DRC VIOLATIONS
+  - NO TIMING VIOLATIONS (still in process)
+* It is containerized too...
+<br> ![Image](https://github.com/user-attachments/assets/f2f6447e-f078-407b-9734-8234f9ef4bd7)
+<br> SOURCE OF IMAGE - VSD-IAT PLATFORM
+* Can be used to harden Macros and Chips.
+* Two modes of operation
+  - Autonomous
+  - Interactive
+* Design Space Exploration
+* Large No. of Design Examples (43 with best configurations, more will be added)
+
+### <br> Introduction To OpenLANE Detailed ASIC Design Flow
+
+ 
 
 
 

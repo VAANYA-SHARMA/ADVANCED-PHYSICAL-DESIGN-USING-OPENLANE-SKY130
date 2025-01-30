@@ -159,6 +159,19 @@ OpenLANE is an open-source ASIC design flow that streamlines digital design impl
 * Large No. of Design Examples (43 with best configurations, more will be added)
 
 ### <br> Introduction To OpenLANE Detailed ASIC Design Flow
+<br> ![Image](https://github.com/user-attachments/assets/bca4e985-ba9e-456c-b4e7-3ddd3506f7d1)
+<br> SOURCE OF IMAGE - VSD-IAT PLATFORM
+
+OpenLANE is based on many Open source components such as OpenROAD, KLayout, Yosys etc..
+
+
+
+
+
+
+
+
+
 
  
 

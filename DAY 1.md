@@ -211,14 +211,54 @@ OpenLANE is a flow rather than a tool, that actually comprises of my EDA tools s
 ![image](https://github.com/user-attachments/assets/50ea6ab9-00d8-4979-b928-bb6ca65334d5) <br> SOURCE OF IMAGE - AUTHOR
 ![image](https://github.com/user-attachments/assets/f89204e1-0782-4c0f-a484-39356ca86ffa) <br> SOURCE OF IMAGE - AUTHOR
  > (the command that I've put in is used to CHANGE DIRECTORY to DESKTOP) 
-<BR> (Bonus Point ~ To clear the any commands written previously, just type "clear" and click enter)
-2. Type in "cd work/tools/" to change to that directory. This is because it conatins/stores the files we require.
+<BR> (Bonus Point ~ To clear the any commands written previously, just type _"clear"_ and click enter)
+2. Type in _"cd work/tools/"_ to change to that directory. This is because it conatins/stores the files we require.
   ![image](https://github.com/user-attachments/assets/6a4abe42-5fdd-4f4b-8a85-a236449844f2) <br> SOURCE OF IMAGE - AUTHOR
 
- 3. Now, type in "ls -ltr"
-    > ls is the linux command for listing. -ltr is the switch for listing files in a folder.
+ 3. Now, type in _"ls -ltr"_
+    > ls is the linux command for listing. -ltr is the switch for listing files in a specific folder.
 
 <br> ![image](https://github.com/user-attachments/assets/05815aef-4768-4c23-a8fe-47b439c95e1f) <br> SOURCE OF IMAGE - AUTHOR
+
+4. The file we'llbe working in is "openlane_working_dir"; according we put in the command _"cd openalane_working_dir"_ and then _"ls -ltr"_ in order to view the contents of the folder.
+
+<br> ![image](https://github.com/user-attachments/assets/cf88d3de-0c14-4b4f-b960-289163937d9b)
+ <br> SOURCE OF THE IMAGE - AUTHOR
+
+5. Let us first explore the pdks, so we change directory by _"cd pdks"_. Then,
+_"ls -ltr"_ to list the files. Exploring sky 130A. then list files in this too.
+<br> ![image](https://github.com/user-attachments/assets/a470dcda-9be9-4f14-94aa-4db826ef9dab)
+<br> SOURCE OF THE IMAGE - AUTHOR
+
+6. Upon exploring the files in sky130A option, we get 2 files;
+   - libs.ref ~ Files specific to process and foundries.
+   - libs.tech ~ Files specific to tools.
+<br> ![image](https://github.com/user-attachments/assets/dc8bc681-06c2-4f01-a66f-e20b535aaac2) <br> SOURCE OF IMAGE - AUTHOR
+> BONUS POINT ~ typing the command _"cd ../"_ levels back the directory to the parent directory, this will come in handy below and later.
+
+Let us explore both of them;
+
+![image](https://github.com/user-attachments/assets/cc9c6f2e-f4a8-4a66-8783-cea1ac0c05e4)
+<br> SOURCE OF IMAGE - AUTHOR
+Here you may notice that the files shown in libs.ref look like specific to technology
+and libs.tech look specific to tools (magic, ngspice, klayout etc.).
+
+ We'll be working on the file in libs.ref that is _"sky130_fd_sc_hd"_ 
+ <br>![image](https://github.com/user-attachments/assets/cd30fd5b-93ca-4a82-b740-3cd0a0a0b40c)
+<br> SOURCE OF IMAGE - AUTHOR
+
+Let us explore it further...
+
+<br> ![image](https://github.com/user-attachments/assets/bb5bfa9a-8808-4b3d-b2f2-1b9b87dbd978)
+
+
+7. 
+
+
+
+
+
+
 
 
 

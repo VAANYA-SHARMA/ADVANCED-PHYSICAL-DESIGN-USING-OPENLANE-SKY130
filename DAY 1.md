@@ -240,8 +240,7 @@ Let us explore both of them;
 
 ![image](https://github.com/user-attachments/assets/cc9c6f2e-f4a8-4a66-8783-cea1ac0c05e4)
 <br> SOURCE OF IMAGE - AUTHOR
-Here you may notice that the files shown in libs.ref look like specific to technology
-and libs.tech look specific to tools (magic, ngspice, klayout etc.).
+Here you may notice that the files shown in libs.ref look like specific to technology and libs.tech look specific to tools (magic, ngspice, klayout etc.).
 
  We'll be working on the file in libs.ref that is _"sky130_fd_sc_hd"_ 
  <br>![image](https://github.com/user-attachments/assets/cd30fd5b-93ca-4a82-b740-3cd0a0a0b40c)
@@ -251,8 +250,20 @@ Let us explore it further...
 
 <br> ![image](https://github.com/user-attachments/assets/bb5bfa9a-8808-4b3d-b2f2-1b9b87dbd978)
 
+> Here the "lib" file contains all timings related files.
+> Here there are "lef" file too.
 
-7. 
+7. Return back to "openlane_working_dir" and open openlane tool.
+<br> ![image](https://github.com/user-attachments/assets/9da60b49-8b7a-4cde-84f3-c9adb77b6d1b)
+<br> ![image](https://github.com/user-attachments/assets/ba064b64-0a26-4033-83ba-33a805a39d09)
+<br> Source Of images - Author
+
+
+
+
+
+
+   
 
 
 

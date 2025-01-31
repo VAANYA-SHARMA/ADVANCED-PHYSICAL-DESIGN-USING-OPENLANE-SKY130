@@ -259,6 +259,102 @@ Let us explore it further...
 <br> Source Of images - Author
 
 
+### <br> Design Preparation Step
+To open OpenLane, start by running the Docker command in interactive mode. Once you do that, the terminal prompt will change to _"bash-4.2$"_, indicating that you’re inside the container.  
+
+From there, follow these steps:  
+
+1. Run  _"ls -lrth"_ to check the list of files, sorted by modification time.  
+2. Execute _"./flow.tcl -interactive"_ to start OpenLane in interactive mode.  
+3. Finally, type _"package require openlane 0.9"_ to load all the necessary components for OpenLane version 0.9.
+
+<br> ![image](https://github.com/user-attachments/assets/aa2bb688-4a9a-47d8-8c08-9151378108c4) <br> SOURCE OF THE IMAGE ~ AUTHOR
+
+> THE DESIGNS RUN BY THE OPENLANE ARE EXTRACTED FROM THE DESIGN FOLDER IN "openlane" DIRECTORY, OUT OF ALL THE DESIGNS WE'LL BE MOST INTERESTED IN "picorv32 a".
+<br> ![image](https://github.com/user-attachments/assets/7d6ca1c8-7117-43da-ace4-94f89d608a13) <BR> SOURCE OF IMAGE ~ AUTHOR
+> ![image](https://github.com/user-attachments/assets/6617c7e6-4805-4042-b983-a6e14cd54610)
+<BR> SOURCE OF IMAGE ~ AUTHOR
+
+
+8. Now before performing synthesis, we need to prepare required specific files. So we do design prepare setup. We put the command _"prep -design picorv32a"_
+
+   <br> ![image](https://github.com/user-attachments/assets/e058b584-2666-43f8-92e0-08235293a494)
+   <br> SOURCE OF IMAGE ~ AUTHOR
+
+   9. Here, a step (as mentioned) was merging the LEF files (l.lef & t.lef), here it can store results. We can see this. <BR> ![image](https://github.com/user-attachments/assets/9b4f21bb-c5dd-43e3-93fd-0baa4858b81c) <BR> SOURCE OF IMAGE - AUTHOR
+       
+![image](https://github.com/user-attachments/assets/00388f7c-2026-4a39-835c-5b823b1107d7)
+    
+If you would look at the snapshot above, you would probably notice that in the runs folder there is the time and date of when we launched openlane and in that we have tech related files and it also has _merged.lef_.
+
+### <br> Review Files After Design Prep and Run Synthesis
+
+10. We can open the merged.lef folder by putting in _"less merged.lef"_. Below is what we'll get.
+
+    <br> ![image](https://github.com/user-attachments/assets/8630cb2d-3ebd-4e42-bb8c-5c25a74cf98f)
+
+11. Now, we run synthesis. Go to openlane and type in _"run_synthesis"_. This will run Yosys and ABC synthesis. This might take upto 5 mins (the time can vary).
+
+
+<br> ![image](https://github.com/user-attachments/assets/304a1c85-a2e8-4b19-ac6a-f325a7a96f15)
+
+<br> ![image](https://github.com/user-attachments/assets/cb182a1f-95a2-49e1-8fd7-29665ba8a40b)
+
+SOURCE OF IMAGES ~ AUTHOR
+
+### <BR> Steps to Characterise Synthesis Results 
+
+Now, our main task will be to find out the FLIP-FLOP RATIO...
+
+(FLIP FLOP RATIO = NO. OF DFF/NO. OF CELLS * 100)
+
+After doing the synthesis, you would be get the printing statistics, this would help u find that ratio..
+
+flip-flop ratio = 14876/1613 *100 = 10.84 %
+
+![image](https://github.com/user-attachments/assets/8dda006e-7991-45f2-b562-38618b311089)
+
+<BR> SOURCE OF IMAGE ~ VSD-IAT PLATFORM
+
+
+We can look at the results of the synthesis too...
+
+![image](https://github.com/user-attachments/assets/f725df00-2c31-457a-912e-ffa4ef7699c8)
+<br> And by putting in command _"less picorv32a.synthesis.v"_ we can get the synthesised netlist..
+
+![image](https://github.com/user-attachments/assets/cea91901-867d-4f80-9997-e0709bf20f80)
+
+
+In order to check timimgs reports;
+
+<br> ![image](https://github.com/user-attachments/assets/a4bfd774-a06f-4053-a1a3-5cec7676520f)
+
+<br> ![image](https://github.com/user-attachments/assets/d236a509-4f22-47fe-a338-600fc8cf777b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
 
 
 

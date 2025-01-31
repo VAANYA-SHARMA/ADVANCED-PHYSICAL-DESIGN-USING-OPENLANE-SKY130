@@ -59,7 +59,7 @@ Contents -:
         + [Create Active Regions](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#create-active-regions)
         + [Formation of N and P well](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#formation-of-n-and-p-well)
         + [Formation of Gate Terminal](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#formation-of-gate-terminal)
-        + [Lightly Doped Drain [LDD] Formation](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#lightly-doped-drain-ldd-formation)
+        + [Lightly Doped Drain [LDD] Formation]()
         + [Source Â Drain Formation](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#source-%C3%A2-drain-formation)
         + [Local Interconnect Formation](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#local-interconnect-formation)
         + [Higher Level Metal Formation](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%203.md#higher-level-metal-formation)

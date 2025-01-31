@@ -34,7 +34,7 @@ Now what if we place our logic inside the chip. We have to place it in the core 
 <br> Now there comes another term related to these dimensions which is aspect ratio. If we look at its definition it would be HEIGHT/WIDTH. 2 unit/2 unit = 1. If the aspect ratio is 1, it signifies that the chip is square in shape. If the aspect ratio is some other no. rather than 1, it signifies that it is rectangle in shape.
 
 
-##### DEFINE THE LOCATION OF PREPLACED CELLS.
+### <BR> CONCEPT OF PRE-PLACED CELLS
 <br> So the next step is to define the location of preplaced cells. So what exactly are preplaced cells ?? To understand, let us take an example of a combinational logic. The assumption about this logic is that it does some amount of function. It does such a big task that its output is a huge circuit. The output circuit is so huge that it almost consists of 50k-100k gates. The circuit is :-
 <br> ![Screenshot 2024-03-26 221026](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/0d0ee0be-7b07-4cef-ba7c-4c4da109da90)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
@@ -58,7 +58,7 @@ To implement these two separately, we need separate them like below.
 <br> And this was how we define the location of preplaced cells. So now next step is to surround them using decoupling capacitors.
 
 
-##### SURROUND PREPLACED CELLS WITH DECOUPLING CAPACITORS.
+### <BR> DE-COUPLING CAPACITORS
 <br> Consider the following image.
 <br> ![Screenshot 2024-03-27 120246](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/78e7ae8d-0b0f-4689-ad0d-aef636e9d275)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
@@ -73,7 +73,7 @@ To implement these two separately, we need separate them like below.
 
 
 
-##### POWER PLANNING
+### <BR> POWER PLANNING
 <BR> Let us consider a problem. Refer to problem image of the previous step. In that we provided it with current using a capacitor. Now let us imagine that circuit as a black box which repeated on a chip multiple times.   
 
 ![Screenshot 2024-03-27 172254](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/f6b5c959-3356-4e7f-be62-20eccc7d31a6)
@@ -106,7 +106,7 @@ Now for the line to retain the same signal i.e 0 to 1 it has to get necessary su
 
 
 
-##### PIN PLACEMENT
+### <BR> PIN PLACEMENT AND LOGICAL CELL PLACEMENT BLOCKAGE
 
 Before directly moving on to pin placement, let us before take an example.
 
@@ -139,6 +139,9 @@ Now we will do some thing known as Logical Cell Placement Blockage. This would n
 <br>![Screenshot 2024-03-28 093522](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/327a7cca-aea9-4d35-a5fb-7856cf7fdb3a)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
+
+### STEPS TO RUN FLOORPLAN USING OPENLANE
+
 Now let us look at the labs. 
 Till now we have done the labs till the command run_synthesis. So in our design flow the next step is run_floorplan. So we will be in the OpenLANE % prompt.
 
@@ -164,10 +167,9 @@ Through this we can review the layout of our design. So there are some features 
 
 You can also zoom in and look at the details of many components. Also to tell this layout that we call is the floorplan, So it doesnot care about the placement of standard cells.
 
-### <br> Library Binding and Placement 
-#### Placement And Routing 
-##### Bind the Netlist with Physical Cells
+## <br> Library Binding and Placement 
 
+### NETLIST BINDING AND INITIAL PLACE DESIGN.
 To know what this step means let us have a look at the netlist we took earlier. 
 <br> ![Screenshot 2024-03-27 231154](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/dd0b0bde-ffce-44d8-8571-bb08b4beaa9f)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
@@ -178,7 +180,7 @@ So what are the components that we have all ready. A well defined flooor plan, A
 ![Screenshot 2024-03-28 120616](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/8e138385-f863-487b-bb8e-67d6ce1b41e5)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-##### Placement
+### Optimize Placement using estimated wire-length and capacitance
 
 Now. We won't be using the shapes of the gates from the netlist but the connections. And the shapes we will be taking from the physical view of logic gates. Now on our floor plan there are some preplaced cells, that were placed during the floor planning step. In this step we need to make sure that automated router does not effect or move these cells and no components are placed on the area where these cells are placed. 
 <br> How do we place these cells?? We have to place in such a manner that they are almost as in the circuit. Like in the circuit the FF 1 in the 1st section is near the Din 1, in the floor plan it should be in the same way. This would reduce the large physical gap, which can lead to delay. 
@@ -201,7 +203,7 @@ So let us first see how will be the blue section placed.
 
 Let us now arrive at our problems. The only answer to our problem is optimize placement.
 
-##### Optimize Placement
+
 
 So first we will make some estimations. The estimations we are going to make will be about the capacitances even before the wiring or we can say routing. But how would it make a difference ??   
 <br> So in actual there is a wire from one point to another. Like from Din2 to yellow FF1.  So if we look at the area of the wire from the Din2 and FF1(yellow) it is pretty large. So the capacitance and resistance will also be more. 
@@ -236,7 +238,7 @@ So till now we have done till the process of floorplanning. Now our next step is
 
 ![Screenshot 2024-03-29 232644](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/56f08b3e-5de3-47bc-853e-f0b430c6e312)
 
-For checking onto your placement, go to maic with the following directory.
+For checking onto your placement, go to magic with the following directory.
 
 ![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/fef3f1da-6531-4818-84cc-dfafd6ff6c3f)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM

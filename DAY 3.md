@@ -57,7 +57,7 @@ Now we will go to magic with our cloned file.
 
 
 
-### <br> Inception of Layout – CMOS fabrication process
+## <br> Inception of Layout – CMOS fabrication process
 
 16 MASK CMOS PROCESS
 
@@ -294,6 +294,29 @@ So this is the layout for our inverter that we got in the previous labs. In this
 ![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/2cdd3ecc-4fc9-4666-bae5-5ece858a7a26)
 
 And the red line is polysilicon. In the repository mentioned, the steps of making an inverter from scratch are also given.
+
+<br> ![Screenshot 2025-01-31 224516](https://github.com/user-attachments/assets/affb5e3c-bfa5-4f05-8fd4-bb1bbce1da34)
+<br> {IMAGE CREDITS: DEEPTHY SANTHAKUMAR, TAKEN FROM OJASVI SHAH'S REPOSITORY}
+
+![image](https://github.com/user-attachments/assets/725a4a1a-7c6b-4f3a-96b6-1bf419ed9542)
+
+![Screenshot 2025-01-31 230544](https://github.com/user-attachments/assets/dd2534d6-6b8b-4f42-8e0e-00fa3ec34174)<br> ![image](https://github.com/user-attachments/assets/eb349111-b98b-4be1-90a9-fe448a4484b0) <br> ![image](https://github.com/user-attachments/assets/aa3664c8-81c2-458b-84e9-4d1005142f92)
+
+
+## SKY130 TECH FILE LABS
+### LAB STEPS TO CREATE FINAL SPICE DECK USING SKY130 TECH
+
+<BR> ![image](https://github.com/user-attachments/assets/53cf8e0e-e603-45a2-bb4d-6234116c52cd)
+<BR> ![image](https://github.com/user-attachments/assets/212645cc-948b-4037-8de3-ddfc993dbcbe)
+
+<br> ![image](https://github.com/user-attachments/assets/ec8f9ce3-a4a2-4362-946d-c5c175b05fcc)
+
+
+
+### LAB STEPS TO CREATE FINAL SPICE DECK USING SKY130 TECH
+ 
+
+
 
 
 

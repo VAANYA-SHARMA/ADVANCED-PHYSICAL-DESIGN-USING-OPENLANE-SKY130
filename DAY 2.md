@@ -243,8 +243,8 @@ For checking onto your placement, go to magic with the following directory.
 ![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/fef3f1da-6531-4818-84cc-dfafd6ff6c3f)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM
 
-### <br> Cell Design and characterization Flows
-#### Cell Design FLow
+## <br> Cell Design and characterization Flows
+### Cell Design FLow
 
 ![image](https://github.com/VAANYA-SHARMA/Advanced-Physical-Design-using-OPENLANE-Sky-130/assets/163661889/343dd35e-8bb0-4eef-8ce2-df7121e22499)
 <br> SOURCE OF THE IMAGE- VSDIAT PLATFORM

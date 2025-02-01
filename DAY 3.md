@@ -313,7 +313,7 @@ And the red line is polysilicon. In the repository mentioned, the steps of makin
 
 
 
-### LAB STEPS TO CREATE FINAL SPICE DECK USING SKY130 TECH
+
 
 
  

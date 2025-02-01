@@ -58,4 +58,4 @@ Contents -:
         + [Lab Steps To Build Power Distribution Network](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/DAY%205.md#labs-to-build-pdn)
 
 
-
+* [ACKNOWLEDGEMENTS AND CREDITS](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/ACKNOWLEDGEMENTS%20AND%20CREDITS.md#acknowledgements-and-credits)

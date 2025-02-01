@@ -53,17 +53,9 @@ Contents -:
       
           
 * [SKY130 DAY 5: Final Steps For RTL2GDS Using TritonRoute and OpenSTA](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/DAY%205.md#day-5---final-steps-to-rtl2gds-using-tritonroute-and-opensta)
-     - [Routing and Design Check]()
-        + [Introduction to Maze Routing and Lee's Algorithm]()
-        + [Lee's Algorithm Conclusion]()
-        + [Design Rule Check]()
+    
      - [Power Distribution Network and Routing](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/DAY%205.md#pdn-and-routing)
         + [Lab Steps To Build Power Distribution Network](https://github.com/VAANYA-SHARMA/ADVANCED-PHYSICAL-DESIGN-USING-OPENLANE-SKY130/blob/main/DAY%205.md#labs-to-build-pdn)
-        + [Lab Steps From Power Straps To STD Cell Power]()
-        + [Basics of Global and Detail Routing and Configure TritonRoute](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%205.md#basics-of-global-and-detail-routing-and-configure-tritonroute)
-     - [TritonRoute Features](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%205.md#tritonroute-features)
-        + [TritonRoute Feature 1 - Honors Pre-processed Route Guides](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%205.md#tritonroute-feature-1---honors-pre-processed-route-guides)
-        + [TritonRoute Feature 2 & 3 - Inter-Guide Connectivity and Intra & Inter Layer Routing](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%205.md#tritonroute-feature-2--3---inter-guide-connectivity-and-intra--inter-layer-routing)
-        + [TritonRoute Method To Handle Connectivity](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%205.md#tritonroute-method-to-handle-connectivity)
-        + [Routing Topology Algorithm and Final Files List Post Route](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/DAY%205.md#routing-topology-algorithm-and-final-files-list-post-route)
-* [Bibliography and Acknowledgements](https://github.com/ojasvi-shah/Advanced-Physical-Design-Using-OpenLANE--Ojasvi-Shah/blob/main/Bibliography%20and%20Acknowledgements.md)
+
+
+

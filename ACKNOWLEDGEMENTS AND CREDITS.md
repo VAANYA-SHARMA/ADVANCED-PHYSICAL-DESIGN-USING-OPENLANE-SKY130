@@ -13,7 +13,8 @@ This course has been an extraordinary intellectual journey, made possible throug
 - **Samsung Semiconductor Research India** for their invaluable contributions.  
 - **Sudarshan Sir**, whose guidance was instrumental — I may have never even encountered this course without his support.  
 - **Ojasvi Shah**, whose repository significantly enhanced my understanding of key concepts.  
-- And to the countless individuals—technological assistants, batchmates, and unsung contributors—whose efforts, though not individually mentioned, were indispensable.  
+- And to the countless individuals—technological assistants, batchmates, and unsung contributors—whose efforts, though not individually mentioned, were indispensable.
+- Throughout this journey, I also had the opportunity to meet several new people, making the experience even more enriching 
 
 A heartfelt thank you to **everyone involved**, from conceptualization to execution, for making this course accessible to all of us.  
 
